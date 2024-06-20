@@ -38,4 +38,36 @@ We successfully developed a PDF question-answering system that accurately extrac
 4. Mikolov, T., et al. (2013). Efficient Estimation of Word Representations in Vector Space.
 5. Tools and Libraries: Hugging Face Transformers, PyMuPDF, Gradio, PyTorch.
 
+Certainly! Here is a list of all the libraries and dependencies used in this project, along with their purposes:
+
+### Libraries and Dependencies
+
+1. **transformers**
+   - **Purpose:** Provides pre-trained models and tools for NLP tasks, including BERT and RoBERTa.
+
+2. **torch (PyTorch)**
+   - **Purpose:** Deep learning framework used for model training and inference.
+
+3. **accelerate**
+   - **Purpose:** Optimizes model training and inference across different hardware configurations (CPU, GPU).
+
+4. **PyMuPDF (fitz)**
+   - **Purpose:** Extracts text from PDF files for processing.
+
+5. **Gradio**
+   - **Purpose:** Creates a user-friendly web interface for the model, allowing users to upload PDFs and ask questions.
+
+6. **tqdm**
+   - **Purpose:** Provides a visual progress bar for loops, especially useful for monitoring training progress.
+
+7. **numpy**
+   - **Purpose:** Supports array and matrix operations, often used for handling model inputs and outputs.
+     
+8. **pandas**
+   - **Purpose:** Used for data manipulation and analysis, particularly for handling datasets.
+
+9. **scikit-learn**
+   - **Purpose:** Provides tools for data preprocessing, such as train-test splitting and evaluation metrics.
+
+
 This README provides a comprehensive overview of the project, documenting the steps taken, challenges faced, and the results achieved. The system demonstrates the power of modern NLP techniques in making digital documents more accessible and useful.
